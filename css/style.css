@@ -20,6 +20,10 @@
     font-family:EXPOARABIC ;
     src: url(../fonts/fonts-des/EXPOARABIC-BOLD.OTF) format("opentype");
 }
+@font-face{
+    font-family: EXPO;
+    src:url(../fonts/EXPO\ ARABIC\ SEMIBOLD.TTF) format("opentype");
+}
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -95,7 +99,7 @@ html{
     .contents-intro p{
         color: #616776;
     text-align: center;
-    font-family: EXPOARABIC;
+    font-family: EXPO;
     font-size: 20px;
   
     font-style: normal;
@@ -153,7 +157,7 @@ html{
        
         }
         .contents-intro h5{
-            color: #000;
+        color: #808080;
         text-align: center;
         font-family: Expo Arabic;
         font-size: 22px;
@@ -167,10 +171,11 @@ html{
             color: #000;
             text-align: center;
             font-family: IBM;
-            font-size: 28px;
+            font-size: 30px;
             font-style: normal;
             font-weight: 700;
             line-height: 110px; /* 152.778% */
+            margin-bottom: 60px;
             }
             .bold-img img{
                 max-width: 90%;
@@ -229,7 +234,7 @@ html{
     .text-servies h6{
         color: var(--white, #FFF);
     text-align: center;
-    font-family: Expo Arabic;
+    font-family: EXPO;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -288,7 +293,7 @@ letter-spacing: 0.2px;
     font-style: normal;
     margin-top: 40px;
     margin-bottom: 80px;
-    line-height: 2.8;
+    line-height: 2.3;
     word-spacing: 2;
     }
     .text-box p{
@@ -406,7 +411,7 @@ border-radius: 10px;
     .work-img3,
     .work-img,
     .work-img2{
-        height: 230px;
+        width: 100%;
         background-size: cover;
     }
     .text-work h6{
@@ -564,10 +569,10 @@ letter-spacing: -0.176px;
         .text-tog p{
             color: #000;
             text-align: center;
-            font-family: Expo Arabic;
-            font-size: 14px;
+            font-family: EXPO;
+            font-size: 13px;
             font-style: normal;
-            font-weight: 300;
+            font-weight: 500;
             line-height: 28.4px; 
         }
         
