@@ -289,12 +289,13 @@ letter-spacing: 0.2px;
         color: var(--white, #FFF);
     text-align: center;
     font-family: EXPOARABIC;
-    font-size: 15px;
+    font-size: 12px;
     font-style: normal;
     margin-top: 40px;
     margin-bottom: 80px;
     line-height: 2.3;
     word-spacing: 2;
+ 
     }
     .text-box p{
         color: #fff;
@@ -526,7 +527,9 @@ letter-spacing: -0.176px;
     
     }
     .frame{
-        flex-direction: column;
+        flex-direction: column-reverse;
+        
+
     }
     .text-wrapper-3{
        
@@ -546,9 +549,9 @@ letter-spacing: -0.176px;
         line-height: 25px; /* 150% */
         letter-spacing: -0.176px;
     }
-    .text-wrapper-2 p{
+    .text-wrapper-2 {
         color: #000;
-        text-align: right;
+        text-align: center;
         font-family: IBM;
         font-size: 14px;
         font-style: normal;
